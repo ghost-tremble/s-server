@@ -11,7 +11,7 @@ const generateToken = (user) => {
       expiresIn: "1hr",
       algorithm: "HS256"
       // expires in 1 hour
-    }
+     }
   );
   return token;
 };
